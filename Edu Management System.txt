@@ -1,0 +1,66 @@
+I have to planned to create 'Edu Management System' for managing Students, Courses, Modules and Teachers information.
+Here is the Entities and its attributes of this system.
+I need to create frontend only using html css js(used basics ones)
+Every page have sidebar with four tabs. They are Students Course Modules Teachers.Defaultly selected Students
+ No need to implement all four pages at starting point just move on Students.
+Now move on Students...
+There is a heading call Students, Under that :
+right side of the web page ,
+1) Total Students 
+2) Search bar 
+And left side of the web page ,
+There is a button called : "+ Add New Student"
+
+Under these there is a table that exisiting all the information of the Students.
+Here are the columns : 
+Student id | Name | Address | Contact Number | Course | Course Fee | Action (Update Delete icons)
+
+ **You need to fill this table using dummy data
+
+When user clicks "+ Add New Student" button, It navigates to new page "Add New Student"
+There is a forum.
+Student ID : 
+Address : 
+Contact Number : 
+
+Course ID: 
+When user enter Course ID It must be showed automatically,
+Course Name :
+Duration :
+Course Fee :   
+and Table with three columns (Module ID, Module Name, Lecturer )
+
+When save must be shows pop up.
+
+
+I have to planned to create 'Edu Management System' for managing Students, Courses, Modules and Teachers information using Spring Boot.
+====Logical Schema of Edu Management System===
+There are all 4 entities.
+They are Student, Course, Teacher and Module
+
+(1) Student- Course (M:N Relationship)
+1 Student can join  1 or more courses
+1 Course have 1 or more Students
+
+(2) Course - Module (M:N Relationship)
+1 Course have one or more Modules
+1 Module includes one or more Courses
+
+(3) Lecturer - Module (1:M Relationship)
+Only 1 lecturer teaches one or more modules.
+But 1 module can only have 1 lecturer
+
+There are all 4 entities.
+They are Student, Course, Teacher and Module
+
+Here the entities and their attributes. 
+Student | studnentID | sName | sAddress | sConatctNo | courseID
+Course  | courseID   | cName | cFee | cDuration | moduleID
+Module  | moduleID   | mName | mDuration |  cID | lID
+Lecturer| lecturerID | nic   | lName    | lAddress |lContactNo | Salary
+
+I need to clarify about the way I think is right, when planned this system.
+If It is true, show me these things as table using dummy data.
+
+I need to clarify about the way I think is right, when planned this system.
+If It is true, show me these things as table using dummy data.
