@@ -1,0 +1,70 @@
+Student Attendance Management System  – Coursework II  
+
+Project Overview  
+You are required to develop a Student Attendance Management System (SAMS) to facilitate  
+tracking and reporting student attendance for educational institutions. This system will help  
+administrative staff and lecturers manage classes, monitor attendance, and generate  
+attendance-related reports.  
+Business Requirements  
+Your system should address the following:  
+1. Course Management  
+○ Manage all available courses and subjects.  
+2. Student Management  
+○ Store student profiles including name, registration number, course, and contact  
+details.  
+3. Lecturer Management  
+○ Maintain lecturer profiles and their assigned subjects.  
+4. Class Scheduling  
+○ Create schedules for classes including course, subject, date, and lecturer. 
+5. Attendance Marking  
+○ Allow lecturers to mark attendance for students per class.  
+6. Attendance Reporting 
+○ Generate reports of attendance by student, subject, or date range.  
+System Functionalities  
+The application should provide the following functionalities:  
+1. User Login  
+○ Role-based access (e.g., Admin, Lecturer).  
+2. Manage Courses (CRUD)  
+○ Add, update, view, and delete course information.  
+3. Manage Students (CRUD)  
+○ Register new students, view student list, update details, or delete records. 
+4. Manage Lecturers (CRUD)  
+○ Add, update, and manage lecturer profiles and subject assignments. 
+5. Class Management  
+○ Schedule classes and assign them to specific courses and lecturers. 
+6. Attendance Management  
+○ Mark attendance per student per class session.  
+7. Attendance Reports  
+○ View or export attendance reports filtered by student, course, or date range.
+
+Here I decided to do this assignment using MERN Stack
+
+
+==============================================================
+But I have these questions.
+In course management,
+1 course have multiple subjects.
+Course -  Backend Developer 
+Subjects - Java , JavaScript , Springboot
+
+Course - Full Stack Developer
+Subjects - Java , Springboot , React
+Also one subject can includes many course.
+
+Course - Frontend Developer
+Subjects - HTML , CSS , JavaScript , React , Angular
+How manage this situation with Mongodb
+
+In Student Management,
+Within mongodb , how assign courses into students
+1 Student can enrol many courses
+
+In Lecture Management,
+Within mongodb , how assign lectures to subjects
+1 Lectures can teaches many subjects
+
+How  attendance mark for students per class session And How Scheduling courses ?This is totally don't understand
+(No any idea) 
+
+Say how do these things with Mern,
+How should backend and frontend behave
